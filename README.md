@@ -26,3 +26,59 @@ Install dependencies with:
 
 ```bash
 pip install -r Requirements.txt
+```
+
+Usage
+
+### 1. Clone the repo:
+
+git clone https://github.com/YOUR_USERNAME/jarvis-voice-assistant.git
+cd jarvis-voice-assistant
+
+### 2. Update your own:
+
+OpenAI API key in main.py
+
+NewsAPI key in main.py
+
+Customize your music links in musiclibrary.py
+
+
+
+### 3. Run it:
+
+
+```bash
+python3 main.py
+
+Speak Jarvis to activate the assistant.
+```
+
+---
+
+###Example Commands
+
+“Jarvis” → activates assistant
+
+“Open Google”
+
+“Play Legends Never Die”
+
+“Give me the news”
+
+“What is the capital of France?”
+
+
+
+---
+
+### Notes
+
+Works best in a quiet environment with a decent mic.
+
+Only supports predefined music names from musiclibrary.py.
+
+You’ll need pygame, gTTS, speech_recognition, and openai.
+
+### Author 
+Made by - Shreya Kumari 
