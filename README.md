@@ -25,4 +25,4 @@ Jarvis is a lightweight Python-based voice assistant that can:
 Install dependencies with:
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
